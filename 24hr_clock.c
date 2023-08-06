@@ -58,6 +58,5 @@ void fareclock(int hours, int minutes, int seconds, char option1){
     }
 
 }
-
-//problem and solutions along the way:
-//1.clock was not printing. Due to the clerly braces for 'fareclock' function defintion not been connected to main function. 
+//   Problem and solutions along the way:
+//1. Clock was not printing. Due to the closing curly brace for 'fareclock function defintion' not been connected properly. 
