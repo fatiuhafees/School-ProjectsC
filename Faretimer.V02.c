@@ -1,3 +1,5 @@
+//implemented 24hr clock, fixed some bugs, implemented user inteface
+//Action points: fixes more bugs, complete user interface, implement a system for tracking number of trips 
 #include <stdio.h> 
 #include <math.h> 
 #include <string.h>
