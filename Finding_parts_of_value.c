@@ -1,6 +1,7 @@
 #include <stdio.h>
 void main(){
-    float input = 0; //must use float as double will not work. "dont ask why" :).
+    float input = 0; //We must use float type as to hold the number as a decimal. Unfortunately we can not use double type.
+                     //This is because double is too large which can be too accurate and we dont want that (try for your self) :).
     int temp = 0, fraction = 0;
 
     printf("\nEnter decimal #: ");
