@@ -5,10 +5,10 @@ void main(){
 
     printf("\nEnter decimal #: ");
     scanf("%f", &input);
-
-//1.input = '1.45' while temp = '1'.
-//2.By 1.45 - 1 we get 0.23. Then * 100 gives us 23.
-//3.temp firt part of the #(1), fraction second part of the #(23).
+//exsample:
+//1.input holds 1.45 while temp holds 1.
+//2.1.45 - 1 = 0.23. Then * 100 gives us 23.
+//3.input holds 1.45, temp holds 1 & fraction holds 23.
     temp = input; 
     fraction = (input - temp) * 100;
 
